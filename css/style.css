@@ -58,9 +58,11 @@ a {
 
 /* ===== main ====== */
 
-main {
-
-}
+/*main {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 4fr 1fr;
+}*/
 
 .main-content {
     padding: 1.25rem;
@@ -142,3 +144,129 @@ button:hover {
 .row-span-2 {
 
 }
+
+
+/* ===== My Code ===== */
+main {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 4fr 1fr;
+}
+
+.categories {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.categoryrow-span-2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    padding: 5px;
+    background-color: rgb(226, 204, 172);
+    margin: 0.25rem;
+}
+
+.category1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    padding: 5px;
+    background-color: rgb(226, 204, 172);
+    margin: 0.25rem;
+}
+
+.category2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    padding: 5px;
+    background-color: rgb(226, 204, 172);
+    margin: 0.25rem;
+}
+
+.categorycol-span-2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    padding: 5px;
+    background-color: rgb(226, 204, 172);
+    margin: 0.25rem;
+}
+
+.category3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    padding: 5px;
+    background-color: rgb(226, 204, 172);
+    margin: 0.25rem;
+}
+
+.category4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    padding: 5px;
+    background-color: rgb(226, 204, 172);
+    margin: 0.25rem;
+}
+
+.category5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    padding: 5px;
+    background-color: rgb(226, 204, 172);
+    margin: 0.25rem;
+}
+
+.sponsors{
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 2;
+}
+
+.sponsor1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.col-span-2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.sponsor3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.col-span-4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
